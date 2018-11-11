@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hq-announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hqAnnouncements/HqAnnouncementsWebPart.js",
+          "manifest": "./src/webparts/hqAnnouncements/HqAnnouncementsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HqAnnouncementsWebPartStrings": "lib/webparts/hqAnnouncements/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hq-announcements-wp-client-side-solution",
+    "id": "03f3baab-a907-4659-8899-2c9853acd42a",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/hq-announcements-wp.sppkg"
+  }
+}
